@@ -1,0 +1,1 @@
+from .haltingvt_recognizer3d import HaltingVTRecognizer3D
