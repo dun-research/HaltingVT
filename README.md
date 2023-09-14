@@ -36,10 +36,10 @@ install [mmcv](https://github.com/open-mmlab/mmcv) and [mmaction2](https://githu
 ## Evaluation
 We provide code and pretrained weights to reproduce the experiments in the paper.
 
-### 1. Pretrained Weights
+#### 1. Pretrained Weights
 We have provided our models on google drive [Google Drive](https://drive.google.com/drive/folders/1ON9PGhGmvTz-y2Qb9mgbSTp54TChCajY?usp=sharing).
 
-### 2. Run Evaluation
+#### 2. Run Evaluation
 
 ```
 python -m torch.distributed.launch --nnodes=1 --node_rank=0 --master_addr="127.0.0.1" --nproc_per_node=8       --master_port=29005 eval.py \
